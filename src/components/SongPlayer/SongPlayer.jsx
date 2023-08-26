@@ -16,7 +16,9 @@ const SongPlayer = () => {
         <img src={playBtn} alt="Music play" />
         <div className={style.progressElement}>
           <p>0:38</p>
-          <div className={style.progressBar}></div>
+          <div className={style.progressBar}>
+            <div className={style.playTime}></div>
+          </div>
           <p>3:38</p>
         </div>
       </div>

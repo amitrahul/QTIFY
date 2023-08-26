@@ -59,3 +59,9 @@
   border-radius: 3px;
   background-color: var(--color-white);
 }
+.playTime {
+  width: 100px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: var(--color-primary);
+}
