@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import Section from "./components/Section/Section";
 import styles from "./App.module.css";
 import FaqAccordion from "./components/Accordion/CustomAccordion";
+import SongPlayer from "./components/SongPlayer/SongPlayer";
 
 function App() {
   const [topAlbumData, setTopAlbumData] = useState([]);
@@ -102,6 +103,7 @@ function App() {
         />
       </div>
       <FaqAccordion />
+      <SongPlayer />
     </>
   );
 }
