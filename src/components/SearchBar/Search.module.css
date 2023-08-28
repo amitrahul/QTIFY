@@ -1,4 +1,17 @@
+/* This is for searchmiui */
 .search {
+  padding: 14px 20px;
+  width: 502px;
+  height: 100%;
+  .textField {
+    width: 485px;
+    margin-top: -20px;
+    padding: 4px;
+  }
+}
+
+/* This search is for normal search jsx */
+/* .search {
   padding: 14px 20px;
   border-radius: 8px;
   border-top-right-radius: 0px;
@@ -7,11 +20,16 @@
   width: 502px;
   height: 100%;
 }
-
+.textField {
+  width: 485px;
+  margin-top: -20px;
+  padding: 4px;
+} */
+/* up to here */
 .wrapper {
   display: flex;
   align-items: center;
-  height: 48px;
+  height: 53px;
 }
 
 .searchButton {

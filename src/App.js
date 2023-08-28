@@ -14,6 +14,7 @@ function App() {
   const [filteredDataValues, setFilteredDataValues] = useState([]);
   /* By default at zero index for all songs  */
   const [value, setValue] = useState(0);
+  const [allAlbumData, setAllAlbumData] = useState([]);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -78,7 +79,7 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      <NavBar albumData={[...topAlbumData, ...newAlbumData]} />
       <Hero />
       <div className={styles.sectionWrapper}>
         <Section

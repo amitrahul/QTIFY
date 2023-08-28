@@ -7,7 +7,7 @@ const SongPlayer = () => {
     <div className={style.songPlayerWrapper}>
       <div className={style.songDescr}>
         <img src={songImage} alt="song" className={style.songimg} />
-        <div class={style.songName}>
+        <div className={style.songName}>
           <h3>Song name</h3>
           <h4>Album name</h4>
         </div>
