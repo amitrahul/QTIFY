@@ -1,9 +1,7 @@
 import React from "react";
 import styles from "./AutoSuggestionCard.module.css";
 const AutoSuggestionCard = (album) => {
-  // console.log(album);
-  const { title, image, follows, songs } = album;
-  // console.log(title, follows, songs);
+  const { title, image, follows } = album;
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.artist}>

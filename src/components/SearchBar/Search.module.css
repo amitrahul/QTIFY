@@ -1,5 +1,5 @@
 /* This is for searchmiui */
-.search {
+/* .search {
   padding: 14px 20px;
   width: 502px;
   height: 100%;
@@ -8,10 +8,10 @@
     margin-top: -20px;
     padding: 4px;
   }
-}
+} */
 
 /* This search is for normal search jsx */
-/* .search {
+.search {
   padding: 14px 20px;
   border-radius: 8px;
   border-top-right-radius: 0px;
@@ -24,7 +24,7 @@
   width: 485px;
   margin-top: -20px;
   padding: 4px;
-} */
+}
 /* up to here */
 .wrapper {
   display: flex;
